@@ -50,9 +50,11 @@ export default function BoardBar({ board }) {
       </Box>
       <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
         <Button sx={{
-          bgcolor: 'primary.bg',
+          bgcolor: 'primary.pink',
           '&:hover': {
-            bgcolor: 'primary.light'
+            transform: 'scale(0.9)',
+            transition: 'transform 0.8s ease-in-out',
+            bgcolor: 'primary.pink'
           }
         }} variant="outlined" startIcon={<PersonAddIcon />} href="#outlined-buttons">
           Invite

@@ -23,6 +23,7 @@ const theme = extendTheme({
           main: '#fff',
           light: '#52b788',
           dark: '#FFC0CB',
+          pink: '#9377a6',
           bg: ' #F7418F',
           specialColor: '#E52B50',
           container: '#f8edeb',

@@ -141,7 +141,7 @@ function Board() {
   }
   if (!board) {
     return (
-      <Loader>loading</Loader>
+      <Loader>deploy free chờ chút nhé...</Loader>
     )
   }
 

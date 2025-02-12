@@ -353,8 +353,8 @@ export default function BoardContent({ board, createNewColumn,
 
   }, [ACTIVE_DRAG_ITEM_TYPE.COLUMN, activeDragItemType, orderedColumns])
   const backgroundImage = (theme) => theme.palette.mode === 'dark'
-    ? 'url(..//..//..//../public/dark.jpg)'
-    : 'url(..//..//..//../public/light.jpg)'
+    ? 'url(..//..//..//..//..//../src/image/dark.jpg)'
+    : 'url(..//..//..//..//..//../src/image/light.jpg)'
 
 
   return (
