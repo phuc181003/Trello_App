@@ -353,10 +353,8 @@ export default function BoardContent({ board, createNewColumn,
 
   }, [ACTIVE_DRAG_ITEM_TYPE.COLUMN, activeDragItemType, orderedColumns])
   const backgroundImage = (theme) => theme.palette.mode === 'dark'
-    ? 'url(..//..//..//..//..//../src/image/dark.jpg)'
-    : 'url(..//..//..//..//..//../src/image/light.jpg)'
-
-
+    ? 'url(/image/dark.jpg)'
+    : 'url(/image/dddepth-353.jpg)'
   return (
     <DndContext sensors={sensors}
       // thuật toán phát hiện va chạm (nếu không có nó thì card và cover lớn sẽ không thể kéo qua colunm được vì

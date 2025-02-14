@@ -46,7 +46,7 @@ const theme = extendTheme({
           dark: '#1F305E',
           main: '#EEEEEE',
           specialColor: '#E52B50',
-          container: '#111111',
+          container: '#0d2b2a',
           Boxcolumn: '#43474b45',
           bntcolor: '#5c97f7',
           bg: '#04395e',
